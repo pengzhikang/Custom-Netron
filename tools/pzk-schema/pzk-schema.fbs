@@ -1,0 +1,120 @@
+namespace PzkModel;
+
+attribute "priority";
+file_extension "pmodelmeta";
+file_identifier "PZKM";
+
+// date time table
+table time{
+    year:uint32 = 1998;
+    month:uint8 = 10;
+    day:uint8 = 11;
+    hour:uint8 = 6;
+    min:uint8 = 6;
+    sec:uint8 = 6;
+}
+
+// data type about tensor
+enum DataType: byte {
+    INT32 = 0,
+    BOOL = 1,
+    INT4 = 2,
+    UINT4 = 3,
+    INT8 = 4,
+    UINT8 = 5,
+    INT16 = 6,
+    UINT16 = 7,
+    FP16 = 8,
+    FP32 = 9,
+    QSYMMEINT4 = 10, //quantize symmetry int4
+    QSYMMEINT8 = 11, //quantize symmetry int8
+    QASYMMEUINT4 = 12, //quantize asymmetry uint4
+    QASYMMEUINT8 = 13, // quantize asymmetry uint8
+    UINT32 = 14,
+    CHAR = 15,
+}
+
+enum TensorType: byte {
+    CONST = 0,
+    DYNAMIC = 1,
+}
+
+enum DataLayout: byte {
+    NCHW = 0,
+    NHWC = 1,
+    ND = 2,
+    NCD = 3,
+}
+
+table TensorShape{
+    dimsize:ubyte;
+    dims:[uint32];
+}
+
+table Weights{
+    ele_bytes:ubyte=0;
+    ele_num:uint64=0;
+    buffer:[ubyte];
+}
+
+table Tensor{
+    id:uint32;
+    name:string;
+    tesor_type:TensorType;
+    data_type:DataType;
+    data_layout:DataLayout;
+    shape:TensorShape;
+    weights:Weights;
+}
+
+table AttrMeta{
+    key:string;
+    require:bool = false;
+    buffer_data:DataType;
+    buffer_ele_num:uint32;
+    buffer:[ubyte];
+}
+
+table Attributes{
+    type:string;
+    meta_num:uint32;
+    meta_require_num:uint32;
+    buffer:[AttrMeta];
+}
+
+table Connect{
+    name:string;
+    necessary:bool = false;
+    tensor_id:uint32;
+}
+
+table Layer{
+    id:uint32;
+    name:string;
+    type:string;
+    input_num:ubyte;
+    output_num:ubyte;
+    input_id:[Connect];
+    output_id:[Connect];
+    require_attrs:bool = false;
+    attrs:Attributes;
+}
+
+
+
+table PModel{
+    author:string;
+    create_time:time;
+    version:string;
+    model_name:string;
+    model_runtime_input_num:uint32;
+    model_runtime_output_num:uint32;
+    model_runtime_input_id:[uint32];
+    model_runtime_output_id:[uint32];
+    all_tensor_num:uint32;
+    tensor_buffer:[Tensor];
+    layer_num:uint32;
+    layer_buffer:[Layer];
+}
+
+root_type PModel;

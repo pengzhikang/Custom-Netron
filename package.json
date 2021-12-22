@@ -1,0 +1,74 @@
+{
+    "name": "netron",
+    "productName": "Netron",
+    "author": {
+        "name": "Lutz Roeder",
+        "email": "lutzroeder@users.noreply.github.com",
+        "url": "https://www.lutzroeder.com"
+    },
+    "version": "5.3.7",
+    "description": "Visualizer for neural network, deep learning, and machine learning models",
+    "license": "MIT",
+    "repository": "lutzroeder/netron",
+    "main": "source/app.js",
+    "scripts": {
+        "postinstall": "electron-builder install-app-deps",
+        "start": "[ -d node_modules ] || npm install && npx electron .",
+        "server": "node ./publish/server.js"
+    },
+    "dependencies": {
+        "electron-updater": "4.3.9",
+        "flatbuffers": "^2.0.4",
+        "typescript": "^4.5.3"
+    },
+    "devDependencies": {
+        "electron": "16.0.0",
+        "electron-builder": "22.13.1",
+        "electron-notarize": "1.1.1",
+        "eslint": "8.2.0"
+    },
+    "eslintConfig": {
+        "env": {
+            "es6": true,
+            "browser": true,
+            "node": true
+        },
+        "extends": "eslint:recommended",
+        "parserOptions": {
+            "ecmaVersion": 2015,
+            "sourceType": "module"
+        },
+        "rules": {
+            "brace-style": [
+                "error",
+                "stroustrup",
+                {
+                    "allowSingleLine": true
+                }
+            ],
+            "indent": [
+                "error",
+                4,
+                {
+                    "SwitchCase": 1
+                }
+            ],
+            "linebreak-style": "off",
+            "no-trailing-spaces": "error",
+            "prefer-const": [
+                "error",
+                {
+                    "destructuring": "all"
+                }
+            ],
+            "semi": [
+                "error",
+                "always"
+            ]
+        },
+        "globals": {
+            "flatbuffers": "readonly",
+            "protobuf": "readonly"
+        }
+    }
+}

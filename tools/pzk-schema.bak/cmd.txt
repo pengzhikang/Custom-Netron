@@ -1,0 +1,1000 @@
+  361  ls
+  362  find ./ -name np*
+  363  cd ../lo
+  364  cd ../local/
+  365  ls
+  366  cd bni
+  367  cd bin/
+  368  ls
+  369  cd ..
+  370  ls
+  371  cd lib/node_modules/
+  372  ls
+  373  cd npm/
+  374  ls
+  375  find ./ -name makefile
+  376  cd ../..
+  377  ls
+  378  sudo rm -rf node_modules
+  379  cd ../
+  380  ls
+  381  cd bin/
+  382  ls
+  383  sudo rm np(
+  384  sudo rm np*
+  385  ls
+  386  cd ..
+  387  ls
+  388  cd ../
+  389  ls
+  390  cd sbin/
+  391  ls
+  392  cd ..
+  393  ls
+  394  sudo find ./ -name np*
+  395  ls
+  396  cd ..
+  397  ls
+  398  npm --version
+  399  ls
+  400  npm --version
+  401  ls
+  402  cd ~
+  403  ls
+  404  cd 下载
+  405  ls
+  406  ls /usr/local/lib/
+  407  ls
+  408  sudo mkdir -p /usr/local/lib/nodejs
+  409  ls
+  410  sudo tar -xJxf node-v16.13.0-linux-x64.tar.xz -C /usr/local/lib/nodejs
+  411  ls /usr/local/lib/nodejs/
+  412  cat ~/.profile 
+  413  vi ~/.profile 
+  414  sudo gedit ~/.profile 
+  415  cat ~/.profile 
+  416  . ~/.profile 
+  417  ls
+  418  node -v
+  419  npm -v
+  420  ls
+  421  npmx -v
+  422  npx -v
+  423  npm version
+  424  ls
+  425  node version
+  426  node --version
+  427  ls
+  428  cd ..
+  429  ls
+  430  cd project/
+  431  ls
+  432  cd netron/
+  433  ls
+  434  make clean
+  435  ls
+  436  make build
+  437  ls
+  438  make clean
+  439  ls
+  440  make build
+  441  make clean
+  442  make build
+  443  ls
+  444  cd ~
+  445  ls
+  446  ls -a
+  447  cd .npm/
+  448  ls
+  449  cd ..
+  450  ls
+  451  cd project/
+  452  ls
+  453  cd netron/
+  454  ls
+  455  sudo reboot
+  456  make clean
+  457  make build
+  458  make clean
+  459  ls
+  460  cd project/netron/
+  461  ls
+  462  make clean
+  463  make build
+  464  ls
+  465  cd publish/
+  466  ls
+  467  cd ..
+  468  ls
+  469  cd tools/
+  470  ls
+  471  cd ..
+  472  ls
+  473  cd node_modules/
+  474  l;s
+  475  ls
+  476  cd ..
+  477  ls
+  478  cat README.md 
+  479  ls
+  480  cd dist/
+  481  ls
+  482  cd bdist.linux-x86_64/
+  483  ls
+  484  ls -a
+  485  cd ..
+  486  ls
+  487  ls -al Netron-5.3.7.AppImage 
+  488  ./Netron-5.3.7.AppImage 
+  489  ls
+  490  cd ..
+  491  ls
+  492  cd ..
+  493  ls
+  494  cd ..
+  495  ls
+  496  cd 桌面
+  497  ls
+  498  cd ..
+  499  ls
+  500  cd ..
+  501  ls
+  502  cd lost+found/
+  503  ls
+  504  cd pe
+  505  l
+  506  cd pengzhikang/
+  507  ls
+  508  cd snap/
+  509  ls
+  510  cd ..
+  511  ls
+  512  cdc project/
+  513  df -h
+  514  node version
+  515  node -e
+  516  node -v
+  517  ls
+  518  cd 下载
+  519  ls
+  520  pwd
+  521  ls node-v16.13.0-linux-x64.tar.xz 
+  522  ls
+  523  cd ..
+  524  ls
+  525  cd project/
+  526  ls
+  527  history > cmd.txt
+  528  cat cmd.txt 
+  529  ls
+  530  echo pengzhikang>>cmd.txt
+  531  cat cmd.txt 
+  532  echo pengzhikang12>>cmd.txt
+  533  cat cmd.txt 
+  534  cat ~/.profile 
+  535  ls
+  536  echo export PATH=/usr/local/lib/nodejs/node-v16.13.0-linux-x64/bin:$PATH>>cmd.txt
+  537  cat cmd.txt 
+  538  echo "export PATH=/usr/local/lib/nodejs/node-v16.13.0-linux-x64/bin:$PATH">>cmd.txt
+  539  cat cmd.txt 
+  540  echo "export PATH=/usr/local/lib/nodejs/node-v16.13.0-linux-x64/bin:$%s"$PATH>>cmd.txt
+  541  cat cmd.txt 
+  542  echo "export PATH=/usr/local/lib/nodejs/node-v16.13.0-linux-x64/bin:$P%s"$ATH>>cmd.txt
+  543  cat cmd.txt 
+  544  echo r"export PATH=/usr/local/lib/nodejs/node-v16.13.0-linux-x64/bin:$PATH">>cmd.txt
+  545  cat cmd.txt 
+  546  man echo
+  547  echo 'export PATH=/usr/local/lib/nodejs/node-v16.13.0-linux-x64/bin:$PATH'>>cmd.txt
+  548  cat cmd.txt 
+  549  npm version
+  550  node -v
+  551  npx version
+  552  npx --v
+  553  npx --help
+  554  node -v
+  555  npx -v
+  556  npm -v
+  557  ls
+  558  vi a.txt
+  559  ls
+  560  gedit a.sh
+  561  ls
+  562  chmod +x a.sh 
+  563  ls
+  564  ./a.sh 
+  565  gedit a.sh 
+  566  ls
+  567  cd netron/
+  568  ls
+  569  ls dist/
+  570  ls
+  571  cd /tmp/mozilla_pengzhikang0/
+  572  ls
+  573  ls -l google-chrome-stable_current_amd64.deb 
+  574  cd /home/
+  575  ls
+  576  cd pengzhikang/
+  577  ls
+  578  cd 下载
+  579  ls
+  580  cd .
+  581  cd ..
+  582  ls
+  583  cd project/
+  584  ls
+  585  cp -r netron netron.bak
+  586  ls
+  587  ls -l *
+  588  ls
+  589  cd netron
+  590  ls
+  591  flatc
+  592  ls
+  593  ./cmake --version
+  594  ls
+  595  ldd cmake
+  596  ls
+  597  cd /usr/
+  598  ls
+  599  cd lo
+  600  cd local/
+  601  ls
+  602  cd bin/
+  603  ls
+  604  cd ..
+  605  ls
+  606  cd lib/
+  607  ls
+  608  cd nodejs/
+  609  ls
+  610  cd ..
+  611  ls
+  612  cd ..
+  613  ls
+  614  cd ..
+  615  ls
+  616  cd lib
+  617  s
+  618  ls
+  619  find ./ -name nodejg
+  620  find ./ -name nodejs
+  621  ls
+  622  cd nodejs/
+  623  ls
+  624  cd ..
+  625  ls
+  626  cd ..
+  627  ls
+  628  cd bi
+  629  cd bin/
+  630  ls
+  631  ./n
+  632  ls
+  633  cd ..
+  634  ls
+  635  l
+  636  ls
+  637  cd bin/
+  638  ls
+  639  ls -l nodejs
+  640  ls -l node
+  641  ls
+  642  cd ..
+  643  ls
+  644  cd bin/
+  645  ls -l npx
+  646  ls -l npm
+  647  ls
+  648  cd ..
+  649  ls
+  650  cd lo
+  651  cd local/
+  652  ls
+  653  ./man --version
+  654  ls
+  655  ls sbin/
+  656  ls bin/
+  657  ls
+  658  cd lib/
+  659  ls
+  660  cd nodejs/
+  661  ls
+  662  cd node-v16.13.0-linux-x64/
+  663  ls
+  664  cd bin/
+  665  ls
+  666  cd ..
+  667  ls
+  668  cd ..
+  669  ls
+  670  cd ..
+  671  ls
+  672  cd ..
+  673  ls
+  674  cd lib/
+  675  cat ~/.bashrc 
+  676  ls
+  677  ls ~/.bashrc 
+  678  ls
+  679  cd ..
+  680  ls
+  681  cd bin/
+  682  ls
+  683  man node
+  684  ls
+  685  man node
+  686  ls
+  687  cat ~/.profile 
+  688  ls
+  689  cd ..
+  690  ls
+  691  cd ..
+  692  ls
+  693  cd ..
+  694  ls
+  695  cd home/
+  696  ls
+  697  cd pengzhikang/
+  698  ls
+  699  cd 下载
+  700  ls
+  701  cd cmake-3.22.0-linux-x86_64/
+  702  ls
+  703  cd ..
+  704  ls
+  705  ls /usr/local/bin/
+  706  s
+  707  sudo cp -r cmake-3.22.0-linux-x86_64 /usr/local/bin/
+  708  cd /usr/local/bin/
+  709  ls
+  710  cd cmake-3.22.0-linux-x86_64/
+  711  ls
+  712  cd bin/
+  713  ls
+  714  pwd
+  715  cat ~/.profile 
+  716  vim ~/.profile 
+  717  sudo vi ~/.profile 
+  718  cat ~/.profile 
+  719  gedit ~/.profile 
+  720  ~/.profile
+  721  ls
+  722  cd ..
+  723  ls
+  724  . ~/.profile
+  725  cmake --version
+  726  ls
+  727  cd ..
+  728  ls
+  729  cd ..
+  730  ls
+  731  cd ..
+  732  ls
+  733  cd ..
+  734  ls
+  735  cd home/pengzhikang/
+  736  ks
+  737  ls
+  738  cd project/
+  739  ls
+  740  cd netron
+  741  ls
+  742  cd ..
+  743  ls
+  744  cat a.sh 
+  745  ls
+  746  cat cmd.txt 
+  747  ls
+  748  clear
+  749  ls
+  750  cd ..
+  751  ls
+  752  cd 下载
+  753  ls
+  754  cd flatbuffers-master/
+  755  ls
+  756  make --version
+  757  ls
+  758  g++ --version
+  759  gcc --version
+  760  pwd
+  761  ls
+  762  cd project/
+  763  ls
+  764  flatc
+  765  ls
+  766  cd 下载
+  767  ls
+  768  cd flatbuffers-master/
+  769  ls
+  770  cmake --help
+  771  ls
+  772  make --version
+  773  cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release
+  774  make -j32
+  775  make install
+  776  sudo make install
+  777  flatc --version
+  778  ls
+  779  ls -l /usr/local/lib/flatc
+  780  ls -l /usr/local/bin/flatc
+  781  ls
+  782  cd ..
+  783  ls
+  784  flatc --version
+  785  ls
+  786  cd /usr/local/
+  787  ls
+  788  cd bin/
+  789  ls
+  790  ldd flatc 
+  791  ls
+  792  cd ..
+  793  ls
+  794  cd lib/
+  795  ls
+  796  cd ..
+  797  ls
+  798  cd include/
+  799  ls
+  800  cd flatbuffers/
+  801  ls
+  802  cd ..
+  803  ls
+  804  cd ..
+  805  ls
+  806  cd share/
+  807  ls
+  808  cd ../man
+  809  ls
+  810  man flatc
+  811  ls
+  812  cd ..
+  813  ls
+  814  cd ..
+  815  ls
+  816  flatc --h
+  817  ls
+  818  cd ..
+  819  ls
+  820  cd ..
+  821  ls
+  822  cd home/
+  823  ls
+  824  cd pengzhikang/下砸
+  825  cd pengzhikang/下载
+  826  ls
+  827  rm wps-office_11.1.0.10702_amd64.deb 
+  828  ls
+  829  rm mobilenet_v1_224_android_quant_2017_11_08.zip 
+  830  ls
+  831  rm caffe-model-zoo-master.zip 
+  832  ls
+  833  rm google-chrome-stable_current_amd64.deb 
+  834  ls
+  835  flatc --version
+  836  ls
+  837  cd ..
+  838  ls
+  839  cd project/
+  840  ls
+  841  cd netron
+  842  ls
+  843  cd ..
+  844  ls
+  845  rm a.sh 
+  846  ls
+  847  rm cmd.txt 
+  848  ls
+  849  mv netron自定义模型适配 netron--custom-document
+  850  ls
+  851  cd netron
+  852  cd ../netron--custom-document/
+  853  ;ls
+  854  ls
+  855  cd ..
+  856  ls
+  857  cd netron--custom-document/
+  858  ls
+  859  cd ../
+  860  ls
+  861  cd ..
+  862  ls
+  863  cd 下载
+  864  ls
+  865  cd flatbuffers-master/
+  866  ls
+  867  gedit CMakeLists.txt 
+  868  ls
+  869  ./flattests 
+  870  ./flatsample
+  871  ./flatsampletext 
+  872  ls
+  873  ./flatsamplebinary 
+  874  ./flatsamplebfbs 
+  875  ./flathash 
+  876  ls
+  877  cd ..
+  878  ls
+  879  cd ..
+  880  ls
+  881  cd project/
+  882  ls
+  883  mv netron--custom-document netron-record
+  884  ls
+  885  cd netron-record/
+  886  ls
+  887  mv 记录文件 document
+  888  ls
+  889  cd document/
+  890  ls
+  891  cd ..
+  892  ls
+  893  cd. .
+  894  cd ..
+  895  ls
+  896  cd netron-record/
+  897  ;s
+  898  ls
+  899  free --m
+  900  free -m
+  901  python3 --version
+  902  ls -l /bin/python3
+  903  ls -l /bin/python3.8
+  904  python3
+  905  ls
+  906  ls -l /usr/bin/python3
+  907  ls -l /usr/bin/python3.8
+  908  sudo python3
+  909  python3
+  910  cd custom-model/
+  911  ls
+  912  cd model-flatbuffer/
+  913  ls
+  914  cd ..
+  915  ls
+  916  flatc --version
+  917  ls
+  918  flatc --h
+  919  ls
+  920  flatc -c model-flatbuffer/pzk-schema.fbs -o include/
+  921  flatc -c -o include/  model-flatbuffer/pzk-schema.fbs
+  922  ls
+  923  chmod u+x generate.sh 
+  924  ls
+  925  ls -l generate.sh 
+  926  ./generate.sh 
+  927  ls -l include/pzk-schema_generated.h 
+  928  ls
+  929  cd include/
+  930  ls
+  931  cd ..
+  932  ls
+  933  find /usr/include/ -name "*json*"
+  934  ls
+  935  make test
+  936  ls
+  937  ./test 
+  938  ls
+  939  ./test model-flatbuffer/pzk-metadata.json 
+  940  make clean
+  941  make test
+  942  make mytest
+  943  make clean
+  944  make mytest
+  945  make clean
+  946  make mytest
+  947  ls
+  948  ./mytest --json model-flatbuffer/pzk-metadata.json 
+  949  ./generate.sh 
+  950  ls
+  951  make testjson
+  952  ls
+  953  ldd testjson 
+  954  ls
+  955  ./testjson --json model-flatbuffer/pzk-metadata.json 
+  956  make clean
+  957  ldd testjson 
+  958  ls
+  959  make clean
+  960  ls
+  961  ./testjson --json model-flatbuffer/pzk-metadata.json 
+  962  make testjson
+  963  ./testjson --json model-flatbuffer/pzk-metadata.json 
+  964  ls
+  965  ./generate.sh 
+  966  ls
+  967  make firstmodel
+  968  ls
+  969  make cleam
+  970  make clean
+  971  ls
+  972  make firstmodel
+  973  ls
+  974  cd ..
+  975  ls
+  976  cd ..
+  977  ls
+  978  cd project/
+  979  ls
+  980  cd custom-model/
+  981  ls
+  982  make firstmodel
+  983  ls
+  984  make firstmodel
+  985  ls
+  986  cp -r custom-model-new/* ~/project/custom-model
+  987  ls
+  988  code .
+  989  ls
+  990  cp -r custom-model custom-model.bak
+  991  ls
+  992  cd custom-model
+  993  ls
+  994  rm -rf ./*
+  995  ls
+  996  ls -al
+  997  ls
+  998  ls
+  999  cat Makefile 
+ 1000  ls
+ 1001  make test
+ 1002  ls
+ 1003  ldd test
+ 1004  ./test 
+ 1005  ls
+ 1006  cp json11.hpp ../../project/custom-model/include/
+ 1007  cp json11.cpp ../../project/custom-model/src/
+ 1008  ls
+ 1009  cp test.cpp ../../project/custom-model/src/
+ 1010  ls
+ 1011  gedit test
+ 1012  ls
+ 1013  gedit test.cpp 
+ 1014  make test
+ 1015  ls
+ 1016  gedit test.cpp 
+ 1017  make clean
+ 1018  make test
+ 1019  ls
+ 1020  cp Makefile ../../project/custom-model/
+ 1021  python
+ 1022  python3
+ 1023  ls
+ 1024  cd ../
+ 1025  ls
+ 1026  cd flatbuffers-master/
+ 1027  ls
+ 1028  ls samples/
+ 1029  ls t
+ 1030  ls tests/
+ 1031  gedit CMakeLists.txt 
+ 1032  ls
+ 1033  cd ../../project/
+ 1034  ls
+ 1035  cd custom-model/
+ 1036  ls
+ 1037  cat Makefile 
+ 1038  make firstmodel
+ 1039  pwd
+ 1040  ls
+ 1041  cd ..
+ 1042  ls
+ 1043  history 
+ 1044  ls
+ 1045  cd ..
+ 1046  ls
+ 1047  cd tests/
+ 1048  ls
+ 1049  cat TestAll.sh 
+ 1050  ./TestAll.sh 
+ 1051  ls
+ 1052  cd ..
+ 1053  ls
+ 1054  ./flattests 
+ 1055  ldd flattests 
+ 1056  ls
+ 1057  ./flatsampleb
+ 1058  ./flatsamplebinary 
+ 1059  ls
+ 1060  find ./ -name *samplerbinart.cp
+ 1061  find ./ -name *samplerbinart.cpp
+ 1062  find ./ -name *samplebinart.cpp
+ 1063  find ./ -name *samplebinary.cpp
+ 1064  find ./ -name *binary.cpp
+ 1065  gedit samples/sample_binary.
+ 1066  gedit samples/sample_binary.cpp 
+ 1067  ls
+ 1068  make clean
+ 1069  cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release
+ 1070  cmake -G "Unix Makefiles"
+ 1071  g
+ 1072  git init
+ 1073  cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release
+ 1074  ls
+ 1075  make -j32
+ 1076  sudo make install
+ 1077  ls
+ 1078  flatc --version
+ 1079  ls
+ 1080  ./flattests 
+ 1081  ./flatsamplef
+ 1082  ./flatsamplefb
+ 1083  ./flatsamplebfbs 
+ 1084  ./flatsamplebinary 
+ 1085  ./flatsampletext 
+ 1086  ls
+ 1087  history 
+ 1088  cd build/
+ 1089  ls
+ 1090  cd ..
+ 1091  ls
+ 1092  cd build/
+ 1093  rm -rf *
+ 1094  ls
+ 1095  cd ..
+ 1096  ls
+ 1097  ls /usr/local/
+ 1098  ls /usr/local/include/
+ 1099  ls /usr/local/include/flatbuffers/
+ 1100  ls
+ 1101  cd build/
+ 1102  cmake ..
+ 1103  make -j16
+ 1104  ls
+ 1105  cd release/
+ 1106  ls
+ 1107  cd ..
+ 1108  ls
+ 1109  cd ..
+ 1110  ls
+ 1111  cd build/
+ 1112  make clean
+ 1113  make -j16
+ 1114  ls
+ 1115  cd release/
+ 1116  ./first_model --json ../../model-flatbuffer/pzk-metadata.json 
+ 1117  ls
+ 1118  cd ..
+ 1119  make clean
+ 1120  make -j16
+ 1121  cd release/
+ 1122  ls
+ 1123  rm 1.bin 
+ 1124  ./first_model --json ../../model-flatbuffer/pzk-metadata.json 
+ 1125  ls
+ 1126  cd ../../..
+ 1127  ls
+ 1128  cd custom-model
+ 1129  ls
+ 1130  chmod u+x desr2json.sh 
+ 1131  ls
+ 1132  ./desr2json.sh 
+ 1133  ls
+ 1134  git clone --help
+ 1135  git clone --h
+ 1136  ls
+ 1137  cd project/
+ 1138  ls
+ 1139  wget https://codeload.github.com/google/flatbuffers/zip/refs/heads/master
+ 1140  ls
+ 1141  ls -l master 
+ 1142  ls
+ 1143  wget --h
+ 1144  wget --help
+ 1145  ls
+ 1146  rm master 
+ 1147  ls
+ 1148  mkdir try_command
+ 1149  cd try_command/
+ 1150  ls
+ 1151  wget -O flatbuffer.zip https://codeload.github.com/google/flatbuffers/zip/refs/heads/master
+ 1152  ls
+ 1153  unzip flatbuffer.zip 
+ 1154  ls
+ 1155  cd flatbuffers-master/
+ 1156  ls
+ 1157  history 
+ 1158  ls
+ 1159  cd ..
+ 1160  ls
+ 1161  cd ..
+ 1162  ls
+ 1163  cd try_command/
+ 1164  ls
+ 1165  rm -rf *
+ 1166  ls
+ 1167  gedit monster.fbs
+ 1168  ls
+ 1169  flatc -c -o ./ monster.fbs 
+ 1170  ls
+ 1171  cat monster_generated.h 
+ 1172  ls
+ 1173  cd project/
+ 1174  ls
+ 1175  cd custom-model
+ 1176  ls
+ 1177  cat generate.sh 
+ 1178  ls include/
+ 1179  ls
+ 1180  cd build/
+ 1181  ls
+ 1182  rm -rf *
+ 1183  cmake ..
+ 1184  make -j16
+ 1185  l
+ 1186  cd release/
+ 1187  cd ..
+ 1188  rm -rf *
+ 1189  cmake ..
+ 1190  make -j16
+ 1191  ls
+ 1192  cd release/
+ 1193  ls
+ 1194  ./first_model --json ../../model-flatbuffer/pzk-metadata.json
+ 1195  ls
+ 1196  cd ../..
+ 1197  ls
+ 1198  ./desr2json.sh 
+ 1199  ls
+ 1200  ls
+ 1201  ls model-flatbuffer/
+ 1202  ls
+ 1203  sudo reboot
+ 1204  ls
+ 1205  cd tools/
+ 1206  ls
+ 1207  cat tflite-schema.fbs 
+ 1208  ls
+ 1209  cd ../..
+ 1210  ls
+ 1211  ls netron*
+ 1212  ls -l ./
+ 1213  ls
+ 1214  zip --help
+ 1215  zip -q -r netron netron.zip
+ 1216  ls
+ 1217  zip -q -r netron.zip netron/
+ 1218  ls
+ 1219  mv netron.zip netron-20211212.zip
+ 1220  ls
+ 1221  cd netron
+ 1222  ls
+ 1223  cd tools/
+ 1224  ls
+ 1225  cp ../../custom-model/model-flatbuffer/pzk-schema.fbs ./
+ 1226  ls
+ 1227  flatc --ts pzk-schema.fbs 
+ 1228  ls
+ 1229  rm -rf pzk-model
+ 1230  rm  pzk-schema.ts 
+ 1231  flatc --js pzk-schema.fbs 
+ 1232  ls
+ 1233  ls caffe 
+ 1234  cd .
+ 1235  ls
+ 1236  node --help
+ 1237  node list
+ 1238  sudo npm install -g typescript
+ 1239  npm install -g typescript
+ 1240  npm install typescript
+ 1241  ls
+ 1242  cd ..
+ 1243  ls
+ 1244  cd ls
+ 1245  cd /usr/
+ 1246  ls
+ 1247  cd lo
+ 1248  cd local/
+ 1249  ls
+ 1250  cd lib/
+ 1251  ls
+ 1252  cd nodejs/
+ 1253  ls
+ 1254  cd node-v16.13.0-linux-x64/
+ 1255  ls
+ 1256  cd bin/
+ 1257  ls
+ 1258  cd ..
+ 1259  ls
+ 1260  cd lib/
+ 1261  ls
+ 1262  cd node_modules/
+ 1263  ls
+ 1264  cd npm/
+ 1265  ls
+ 1266  cd node_modules/
+ 1267  ls
+ 1268  cd ..
+ 1269  ls
+ 1270  cd lib/
+ 1271  ls
+ 1272  cd ..
+ 1273  ls
+ 1274  cd ..
+ 1275  ls
+ 1276  cd ..
+ 1277  ls
+ 1278  cd ..
+ 1279  find ./ -name typescript*
+ 1280  cd /usr/bin/
+ 1281  ls
+ 1282  cd ~
+ 1283  cd project/
+ 1284  cd netron
+ 1285  ls
+ 1286  cd tools/
+ 1287  ls
+ 1288  ls o
+ 1289  ls om 
+ 1290  ls om/o
+ 1291  ls om/om
+ 1292  mkdir pzk-schema
+ 1293  mv pzk-schema.fbs pzk-schema/
+ 1294  cd pzk-schema/
+ 1295  ls
+ 1296  flatc --ts pzk-schema.fbs 
+ 1297  ls
+ 1298  cd ../../node_modules/typescript/bin/
+ 1299  cd -
+ 1300  ln -s ../../node_modules/typescript/bin/tsc ./tsc
+ 1301  ls
+ 1302  ./tsc pzk-schema.ts 
+ 1303  ls
+ 1304  ls tsc 
+ 1305  ls
+ 1306  ln -s ../../source/flatbuffers.js 
+ 1307  ls
+ 1308  rm pzk-schema.js 
+ 1309  ./tsc pzk-schema.ts 
+ 1310  ls
+ 1311  rm -rf pzk-model
+ 1312  ls
+ 1313  rm pzk-schema.ts
+ 1314  flatc --ts pzk-schema.fbs 
+ 1315  rm pzk-schema.js 
+ 1316  ls
+ 1317  flatc --js pzk-schema.fbs 
+ 1318  ls
+ 1319  mv flatbuffers.js pzk-model/
+ 1320  ls
+ 1321  ln -s ../../source/flatbuffers.js flatbuffers
+ 1322  ls
+ 1323  rm flatbuffers 
+ 1324  cd pzk-model/
+ 1325  ln -s ../../source/flatbuffers.js flatbuffers
+ 1326  ls
+ 1327  rm flatbuffers 
+ 1328  cp ../../../source/flatbuffers.js flatbuffers
+ 1329  ls
+ 1330  rm flatbuffers 
+ 1331  cp /home/pengzhikang/下载/flatbuffers-master/ts/flatbuffers.ts ./
+ 1332  ls
+ 1333  cd ../../../node_modules/typescript/
+ 1334  ls
+ 1335  cd lib/
+ 1336  ls
+ 1337  cd -
+ 1338  cd ../../tools/pzk-schema/
+ 1339  ls
+ 1340  cd pzk-model/
+ 1341  ls
+ 1342  ls export { SIZEOF_SHORT } from './constants'
+ 1343  export { SIZEOF_INT } from './constants'
+ 1344  export { FILE_IDENTIFIER_LENGTH } from './constants'
+ 1345  export { SIZE_PREFIX_LENGTH } from './constants'
+ 1346  export { Table, Offset } from './types'
+ 1347  export { int32, float32, float64, isLittleEndian } from './utils'
+ 1348  export { Long, createLong } from './long'
+ 1349  export { Encoding } from './encoding'
+ 1350  export { Builder } from './builder'
+ 1351  ls /home/pengzhikang/下载/flatbuffers-master/ts
+ 1352  cp /home/pengzhikang/下载/flatbuffers-master/ts/* ./
+ 1353  cp -r /home/pengzhikang/下载/flatbuffers-master/ts/* ./
+ 1354  ls
+ 1355  cd ..
+ 1356  ls
+ 1357  tsc pzk-schema.ts 
+ 1358  ./tsc pzk-schema.ts 
+ 1359  ls
+ 1360  history > cmd.txt

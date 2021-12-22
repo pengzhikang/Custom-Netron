@@ -1,0 +1,257 @@
+namespace tflite;
+
+// This corresponds to the version.
+file_identifier "TFL3";
+// File extension of any written files.
+file_extension "tflite";
+
+// all attrs about all layers, eg: conv2d, upsample......
+union BuiltinOptions {
+  Conv2DOptions,
+  DepthwiseConv2DOptions,
+  ConcatEmbeddingsOptions,
+  LSHProjectionOptions,
+  Pool2DOptions,
+  SVDFOptions,
+  RNNOptions,
+  FullyConnectedOptions,
+  SoftmaxOptions,
+  ConcatenationOptions,
+  AddOptions,
+  L2NormOptions,
+  LocalResponseNormalizationOptions,
+  LSTMOptions,
+  ResizeBilinearOptions,
+  CallOptions,
+  ReshapeOptions,
+  SkipGramOptions,
+  SpaceToDepthOptions,
+  EmbeddingLookupSparseOptions,
+  MulOptions,
+  PadOptions,
+  GatherOptions,
+  BatchToSpaceNDOptions,
+  SpaceToBatchNDOptions,
+  TransposeOptions,
+  ReducerOptions,
+  SubOptions,
+  DivOptions,
+  SqueezeOptions,
+  SequenceRNNOptions,
+  StridedSliceOptions,
+  ExpOptions,
+  TopKV2Options,
+  SplitOptions,
+  LogSoftmaxOptions,
+  CastOptions,
+  DequantizeOptions,
+  MaximumMinimumOptions,
+  ArgMaxOptions,
+  LessOptions,
+  NegOptions,
+  PadV2Options,
+  GreaterOptions,
+  GreaterEqualOptions,
+  LessEqualOptions,
+  SelectOptions,
+  SliceOptions,
+  TransposeConvOptions,
+  SparseToDenseOptions,
+  TileOptions,
+  ExpandDimsOptions,
+  EqualOptions,
+  NotEqualOptions,
+  ShapeOptions,
+  PowOptions,
+  ArgMinOptions,
+  FakeQuantOptions,
+  PackOptions,
+  LogicalOrOptions,
+  OneHotOptions,
+  LogicalAndOptions,
+  LogicalNotOptions,
+  UnpackOptions,
+  FloorDivOptions,
+  SquareOptions,
+  ZerosLikeOptions,
+  FillOptions,
+  BidirectionalSequenceLSTMOptions,
+  BidirectionalSequenceRNNOptions,
+  UnidirectionalSequenceLSTMOptions,
+  FloorModOptions,
+  RangeOptions,
+  ResizeNearestNeighborOptions,
+  LeakyReluOptions,
+  SquaredDifferenceOptions,
+  MirrorPadOptions,
+  AbsOptions,
+  SplitVOptions,
+  UniqueOptions,
+  ReverseV2Options,
+  AddNOptions,
+  GatherNdOptions,
+  CosOptions,
+  WhereOptions,
+  RankOptions,
+  ReverseSequenceOptions,
+  MatrixDiagOptions,
+  QuantizeOptions,
+  MatrixSetDiagOptions,
+  HardSwishOptions,
+  IfOptions,
+  WhileOptions,
+  DepthToSpaceOptions,
+  NonMaxSuppressionV4Options,
+  NonMaxSuppressionV5Options,
+  ScatterNdOptions,
+  SelectV2Options,
+  DensifyOptions,
+  SegmentSumOptions,
+  BatchMatMulOptions,
+  CumsumOptions,
+  CallOnceOptions,
+  BroadcastToOptions,
+  Rfft2dOptions,
+  Conv3DOptions,
+  HashtableOptions,
+  HashtableFindOptions,
+  HashtableImportOptions,
+  HashtableSizeOptions,
+}
+
+// An operator takes tensors as inputs and outputs. The type of operation being
+// performed is determined by an index into the list of valid OperatorCodes,
+// while the specifics of each operations is configured using builtin_options
+// or custom_options.
+// just liker one layer, which includes inputs and outputs info
+table Operator {
+  // Index into the operator_codes array. Using an integer here avoids
+  // complicate map lookups.
+  opcode_index:uint;
+
+  // Optional input are indicated by -1.
+  inputs:[int];
+  outputs:[int];
+
+  builtin_options:BuiltinOptions;
+  custom_options:[ubyte];
+  custom_options_format:CustomOptionsFormat;
+
+  // A list of booleans indicating the input tensors which are being mutated by
+  // this operator.(e.g. used by RNN and LSTM).
+  // For example, if the "inputs" array refers to 5 tensors and the second and
+  // fifth are mutable variables, then this list will contain
+  // [false, true, false, false, true].
+  //
+  // If the list is empty, no variable is mutated in this operator.
+  // The list either has the same length as `inputs`, or is empty.
+  mutating_variable_inputs:[bool];
+
+  // A list of indices to the subgraph's "tensors" that are internal to an Op.
+  // Internal tensors are those that do not flow in or out of the operation,
+  // but instead are part of internal computation. As such, the operation's
+  // implementation may manage its memory more efficiently. They are needed
+  // however (i.e. not just an implementation detail) since they are part of the
+  // computation, which may require relevant metadata such as quantization
+  // parameters.
+  intermediates:[int];
+}
+
+
+// The root type, defining a subgraph, which typically represents an entire
+// model.
+table SubGraph {
+  // A list of all tensors used in this subgraph.
+  tensors:[Tensor];
+
+  // Indices of the tensors that are inputs into this subgraph. Note this is
+  // the list of non-static tensors that feed into the subgraph for inference.
+  inputs:[int];
+
+  // Indices of the tensors that are outputs out of this subgraph. Note this is
+  // the list of output tensors that are considered the product of the
+  // subgraph's inference.
+  outputs:[int];
+
+  // All operators, in execution order.
+  operators:[Operator];
+
+  // Name of this subgraph (used for debugging).
+  name:string;
+}
+
+// Table of raw data buffers (used for constant tensors). Referenced by tensors
+// by index. The generous alignment accommodates mmap-friendly data structures.
+table Buffer {
+  data:[ubyte] (force_align: 16);
+}
+
+table Metadata {
+  // A human readable string to uniquely identify a Metadata.
+  name:string;
+  // An index to the buffers table.
+  buffer:uint;
+}
+
+// Map from an alias name of tensor to tensor index in the graph.
+// This is used in Signature def.
+table TensorMap {
+  // Represents the alias to use for this tensor.
+  name:string;
+
+  // The actual tensor index in the primary graph, that 'name' corresponds to.
+  tensor_index:uint;
+}
+
+// This corresponds to SignatureDef in Tensorflow SavedModel.
+// The SignatureDef will be part of the SavedModel provided for conversion.
+table SignatureDef {
+  // Named inputs for this signature.
+  inputs:[TensorMap];
+
+  // Named outputs for this signature.
+  outputs:[TensorMap];
+
+  // Exported method name for this signature.
+  method_name:string;
+
+  // Key value which was in the Tensorflow SavedModel SignatureDef map.
+  key:string;
+}
+
+
+
+table Model {
+  // Version of the schema.
+  version:uint;
+
+  // A list of all operator codes used in this model. This is
+  // kept in order because operators carry an index into this
+  // vector.
+  operator_codes:[OperatorCode];
+
+  // All the subgraphs of the model. The 0th is assumed to be the main
+  // model.
+  subgraphs:[SubGraph];
+
+  // A description of the model.
+  description:string;
+
+  // Buffers of the model.
+  // Note the 0th entry of this array must be an empty buffer (sentinel).
+  // This is a convention so that tensors without a buffer can provide 0 as
+  // their buffer.
+  buffers:[Buffer];
+
+  // Metadata about the model. Indirects into the existings buffers list.
+  // Deprecated, prefer to use metadata field.
+  metadata_buffer:[int];
+
+  // Metadata about the model.
+  metadata:[Metadata];
+
+  // Optional SignatureDefs for the model.
+  signature_defs:[SignatureDef];
+}
+
+root_type Model;
